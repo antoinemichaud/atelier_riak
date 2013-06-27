@@ -36,9 +36,11 @@ Activez l'API Search : Dans app.config, vous trouverez une partie du fichier qui
 Vous devez passer la valeur à "true"
 
 Activez le backend leveldb : Dans app.config, vous trouverez une partie du fichier qui ressemble à :
-```%% Riak KV config
+```
+%% Riak KV config
  {riak_kv, [
-{storage_backend, riak_kv_bitcask_backend},```
+{storage_backend, riak_kv_bitcask_backend},
+```
 
 Remplacez riak_kv_bitcask_backend par riak_kv_eleveldb_backend
 
