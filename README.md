@@ -22,20 +22,18 @@ Vous trouverez les 4 noeuds ainsi installés dans le répertoire dev :
 
 Configurez votre base : Les configurations doivent être effectuées dans chacun des noeuds. Le fichier de configuration est dans etc/app.config
 Activez l'API Search : Dans app.config, vous trouverez une partie du fichier qui ressemble à :
-```%% Riak Search Config
+```
+%% Riak Search Config
 {riak_search, [
-               %% To enable Search functionality set this 'true'.
-               {enabled, false}
-              ]},```
+{enabled, false}
+]},```
               
 Vous devez passer la valeur à "true"
 
 Activez le backend leveldb : Dans app.config, vous trouverez une partie du fichier qui ressemble à :
 ```%% Riak KV config
  {riak_kv, [
-            %% Storage_backend specifies the Erlang module defining the storage
-            %% mechanism that will be used on this node.
-            {storage_backend, riak_kv_bitcask_backend},```
+{storage_backend, riak_kv_bitcask_backend},```
 
 Remplacez riak_kv_bitcask_backend par riak_kv_eleveldb_backend
 
