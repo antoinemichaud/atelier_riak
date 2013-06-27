@@ -3,7 +3,7 @@ Atelier Riak
 
 Atelier d'initiation à Riak
 
-# Installation de Riak
+## Installation de Riak
 
 Tout d'abord, téléchargez Riak 1.3.2
 ```curl -O http://s3.amazonaws.com/downloads.basho.com/riak/1.3/1.3.2/riak-1.3.2.tar.gz
