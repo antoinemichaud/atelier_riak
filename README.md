@@ -144,7 +144,7 @@ Vous trouverez comment requêter Riak avec l'API Search à [cette adresse](http:
 
 2. Insérez dans le bucket professional_users les 10 utilisateurs décrits dans le fichier "users.txt" avec comme clé nom_prenom. Les données seront au format JSon et la structure sera celle que laisse entendre la forme du fichier.
 
-*N'oubliez pas que vous avez laissé la partie des dettes dans le monde tourner, ne laissez pas la crise détruire le monde, on compte sur vous !*
+    *N'oubliez pas que vous avez laissé la partie des dettes dans le monde tourner, ne laissez pas la crise détruire le monde, on compte sur vous !*
 
 3. Cherchez tous les utilisateurs qui savent cuisiner
 
