@@ -81,7 +81,7 @@ sera d'alimenter correctement la base de données, puis d'essayer les différent
 
 *Les parties sont indépendantes les unes des autres ; n'hésitez pas à alterner si vous bloquez trop longtemps sur une question*
 
-**NB : Les diverses parties vous redirigeront souvent vers la documentation de Basho. Il faudra veiller à indiquer le bon port dans les requêtes car dans la plupart de ses exemples, Basho indique le port 8091 tandis que le votre sera plus probablement 10018.
+**NB : Les diverses parties vous redirigeront souvent vers la documentation de Basho. Il faudra veiller à indiquer le bon port dans les requêtes car dans la plupart de ses exemples, Basho indique le port 8091 tandis que le votre sera plus probablement 10018.**
 
 ### Les bases - insérer, lire et supprimer
 
