@@ -11,6 +11,8 @@ curl -O http://s3.amazonaws.com/downloads.basho.com/riak/1.3/1.3.2/riak-1.3.2.ta
 tar zxvf riak-1.3.2.tar.gz
 ```
 
+Vous aurez aussi besoin d'installer [Erlang](http://docs.basho.com/riak/1.3.2/tutorials/installation/Installing-Erlang/)
+
 Installez Riak
 ```
 cd riak-1.3.2
