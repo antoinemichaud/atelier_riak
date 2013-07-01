@@ -1,0 +1,30 @@
+1.
+Nom : Boeuf
+Prénom : Simon
+CV : Profession : la programmation. Il connait le java mais le php et le bigdata sont ses points forts. Passion : cuisiner les escargots à la tomate.
+
+2.
+Nom : Henri
+Prénom : Alfred
+CV : Profession : Organiser les dîners mondains. Passion : Il cuisine souvent des hamburgers à 20 étages composés de 10 steaks chacuns qu'il passe son temps à manger devant la télé (oui, tout le monde a le droit à son péché mignon)
+
+3.
+Nom : Dubateau
+Prénom : Christophe
+CV : Profession : Skipper chevronné, il programme aussi lui-même les programmes de navigation de son bâteau. Passion : L'équitation et respirer les embruns martimes.
+
+4.
+Nom : Lagaffe
+Prénom : Gaston
+CV : Profession : Aide de bureau ultra-motivé. Passion : les mouettes, les chats et toute sorte d'objets insolites.
+
+5.
+Nom : Eastwood
+Prénom : Clint
+CV : Profession : Chasser le bandit contre d'alléchantes primes. Passion : Cuisiner les bandits aux petits oignons.
+
+
+6.
+Nom : Lederniermousquetaire
+Prénom : Albert
+CV : Profession : Acteur de dessin animé. Passion : Danseur de french cancan tous les samedis soirs au cabaret "Le cardinal".

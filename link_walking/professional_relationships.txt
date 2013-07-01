@@ -1,0 +1,11 @@
+Simon Boeuf suit Alfred Henri
+
+Simon Boeuf suit Clint Eastwood
+
+Alfred Henri suit Christophe Dubateau
+
+Alfred Henri suit Clint Eastwood
+
+Gaston Lagaffe suit Christophe Dubateau
+
+Albert Lederniermousquetaire suit Clint Eastwood
