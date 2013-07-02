@@ -1,0 +1,1 @@
+curl -i "http://localhost:10018/solr/debts_in_world/select?wt=json&q=IndicatorCode:DT.INT.DECT.GN.ZS"

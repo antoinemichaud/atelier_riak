@@ -21,7 +21,7 @@ CV : Profession : Aide de bureau ultra-motivé. Passion : les mouettes, les chat
 5.
 Nom : Eastwood
 Prénom : Clint
-CV : Profession : Chasser le bandit contre d'alléchantes primes. Passion : Cuisiner les bandits aux petits oignons.
+CV : Profession : Chasser le bandit contre d'alléchantes primes. Passion : cuisiner les bandits aux petits oignons.
 
 
 6.

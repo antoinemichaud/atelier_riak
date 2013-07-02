@@ -1,0 +1,1 @@
+curl http://localhost:10018/buckets/travel_pictures/index/country_bin/slovenia

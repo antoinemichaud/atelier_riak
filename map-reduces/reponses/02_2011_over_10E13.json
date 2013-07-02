@@ -1,0 +1,10 @@
+{ "inputs" : "debts_in_world",
+  "query" : [ { "map" : { "keep" : true,
+            "language" : "javascript",
+            "source" : "
+	            function (value, keyData, arg) {
+				    var data = Riak.mapValuesJson(value)[0];
+				    if (data.year2011 && parseFloat(data.year2011) > 1e13) return [value.key];
+				    else return [];}"
+          } } ]
+}

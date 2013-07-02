@@ -150,7 +150,7 @@ Vous trouverez comment requêter Riak avec l'API Search à [cette adresse](http:
 
 3. Cherchez tous les utilisateurs qui savent cuisiner
 
-4. Cherchez tous les utilisateurs qui ont le langage "java" et "bigdata" dans leur cv à moins de 20 caractères d'espacement
+4. Cherchez tous les utilisateurs qui ont le langage "java" et "bigdata" dans leur profession à moins de 20 caractères d'espacement
 
     *La suite de cette partie concerne le parcours de liens (link walking). Vous trouverez le nécessaire à la réalisation de ces points dans le répertoire "link_walking".*
 
@@ -173,6 +173,6 @@ Vous trouverez comment requêter Riak avec l'API Search à [cette adresse](http:
 
 1. Insérez les images disponibles dans le répertoire correspondant à 6 pays et 2 types d'image, tout en mettant à chaque fois en place deux indexes secondaires : le type de photos (ville ou paysage) et le lieu. Le script utile à l'insertion des données est cette fois présent dans le répertoire 2i, mais il faudra cependant modifier légèrement ce script de manière à avoir les indexes attendus.
 
-2. Récupérez les photos de type paysage.
+2. Récupérez les clés des photos de type paysage.
 
-3. Récupérez les photos de villes de Slovénie
+3. Récupérez les clés des photos de villes de Slovénie

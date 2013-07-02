@@ -1,0 +1,1 @@
+curl -XPUT -H "content-type:application/json" http://localhost:10018/riak/professional_users -d '{"props":{"search":true, "precommit":[{"mod":"riak_search_kv_hook","fun":"precommit"}]}}'

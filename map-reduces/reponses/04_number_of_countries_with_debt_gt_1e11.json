@@ -1,0 +1,52 @@
+{ "inputs" : "debts_in_world",
+  "query" : [ { "map" : {
+            "language" : "javascript",
+                "source" : "
+                  function (value) {
+                    var data = Riak.mapValuesJson(value)[0];
+                    var obj = {};
+                    obj[data.CountryCode] = parseFloat(data.year2008);
+                    return [obj];
+                 }"
+                } },
+              { "reduce" : {
+                "language" : "javascript",
+                "source" : "function(values, arg) {
+                      return [values.reduce(function(acc, item) {
+                            for(var country in item) {
+                              if (item[country])
+                                acc[country] += item[country];
+                              else acc[country] = item[country];
+                            }
+                            return acc;
+                            })];
+                  }"
+                }
+
+              },
+              { "reduce" : {
+                  "language" : "javascript",
+                  "source" : "function (values, arg) {
+                      var sum = 0;
+                      var endebtedLands = [];
+                      var totalDebts = values[0];
+                      var debts = values[0]; 
+
+                      for (var name in debts) {
+                        if (debts[name] > 1e11) {
+                          sum++;
+                          endebtedLands.push(name);
+                        }
+                      }
+
+                      var finalResult = {};
+                      finalResult['Sum'] = sum;
+                      finalResult['Endebted Countries'] = endebtedLands;
+                      return [finalResult];
+                    }"
+                }
+
+              }
+
+             ]
+}
